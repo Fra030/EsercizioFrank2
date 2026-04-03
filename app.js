@@ -6,6 +6,7 @@ document.getElementById('studentForm').addEventListener('submit', function(event
     const cognome = document.getElementById('cognome').value.trim();
     const email = document.getElementById('email').value.trim();
     const dataNascita = document.getElementById('dataNascita').value;
+    //const test = document.getElementById('test').value.trim();
 
     if (!nome || !cognome || !email || !dataNascita) {
         alert('Tutti i campi sono obbligatori!');
